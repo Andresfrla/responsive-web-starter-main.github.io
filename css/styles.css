@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap');
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add some styles for body*/
+body {
+    min-height: 100vh;
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #F2F2F1;
+    color: #6C727F;
+    font-family: 'Sora', sans-serif;
+    line-height: 1.5;
+    background-position: 0 0,25px 25px;
+    background-attachment: fixed;
+    background-size: 50px 50px;
+    overflow-x: hidden;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    margin-top: 164px;
+    width: 368px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    border-radius: 16px;
+}
+
+img {
+    border-radius: 16px;
+}
+
+.container {
+    margin-bottom: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+button {
+    background-color: #E6D6FC;
+    color: #883AE1;
+    border-radius: 16px;
+    border-style: none;
+    font: bold;
+    padding: 6px;
+}
+
+span {
+    margin: 16px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Sora', sans-serif;
+}
+
+h4 {
+    color: #20293A;
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+.text {
+    color: #6C727F;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+hr {
+    border: none; /* Sin borde */
+    border-top: 1px solid #ccc; /* Línea divisoria en la parte superior */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+.autor{
+    margin: 20px;
+    font-size: 12px
+}
+
+@media screen and (min-width: 720px) {
+    .logo {
+        display: initial;
+    }
+
+    .get-started {
+        width: auto;
+    }
+
+    main {
+        flex-direction: row;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+
+  }
